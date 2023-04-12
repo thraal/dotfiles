@@ -1,0 +1,20 @@
+highlight_attributes {
+	normal = (  )
+}
+config_version = 1
+%terminals {
+	name = "xterm-256color"
+	key_timeout = -1000
+	highlight_attributes {
+		normal = (  )
+	}
+	color = true
+}
+color = true
+attributes {
+	text_selection_cursor = ( "fg 18", "bg blue" )
+	text_cursor = ( "fg white", "bg 56" )
+	text = ( "fg white", "bg default" )
+	hotkey_highlight = ( "fg 33", "bold" )
+	text_selected = ( "fg 54", "bg white" )
+}
