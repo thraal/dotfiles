@@ -2,13 +2,13 @@
 dotfiles backup
 ## Install your dotfiles on a new system, or migrate to this setup
 ### 1. `echo ".cfg" >> .gitignore`
-There could be weird behaviour if .cfg tries to track itself.
-Avoid recursive issues by adding .cfg to your global Git ignore.
+There could be weird behaviour if `.cfg` tries to track itself.
+Avoid recursive issues by adding `.cfg` to your global Git ignore.
 
 ### 2. `git clone --bare <remote-git-repo-url> $HOME/.cfg`
 Add a `--bare` flat if you wish you use a bare repo
 
-### 3. `alias config='/usr/bin/git --git-dir=<path to .cfg’s Git directory> --work-tree=$HOME'`
+### 3. `alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'`
 Set up an alias to send Git commands to `.cfg`, and also set `$HOME` as the work tree,
 while storing the Git state at `.cfg`
 
