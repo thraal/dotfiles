@@ -5,7 +5,7 @@ dotfiles backup
 There could be weird behaviour if `.cfg` tries to track itself.
 Avoid recursive issues by adding `.cfg` to your global Git ignore.
 
-### 2. `git clone --bare <remote-git-repo-url> $HOME/.cfg`
+### 2. `git clone --bare https://github.com/thraal/dotfiles.git $HOME/.cfg`
 Add a `--bare` flat if you wish you use a bare repo
 
 ### 3. `alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'`
