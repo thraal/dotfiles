@@ -27,10 +27,10 @@ places them in the work tree.
 E.g if you added `$HOME/.zsh/aliases` to `.cfg`, that file will be instantiated at that path on your new
 computer.
 
-`config checkout` might fail with an error message like.
+`config checkout` might fail with an error message.
 
 Files on your computer might have identical locations and names to files in the
-.cfg repo. Git doesn’t want to overwrite your local files.
+`.cfg` repo. Git doesn’t want to overwrite your local files.
 
 Back up the files if they’re useful, delete them if they aren’t.
 
