@@ -8,7 +8,7 @@ Avoid recursive issues by adding .cfg to your global Git ignore.
 ### 2. `git clone --bare <remote-git-repo-url> $HOME/.cfg`
 Add a `--bare` flat if you wish you use a bare repo
 
-### `alias config='/usr/bin/git --git-dir=<path to .cfg’s Git directory> --work-tree=$HOME'`
+### 3. `alias config='/usr/bin/git --git-dir=<path to .cfg’s Git directory> --work-tree=$HOME'`
 Set up an alias to send Git commands to `.cfg`, and also set `$HOME` as the work tree,
 while storing the Git state at `.cfg`
 
@@ -16,10 +16,10 @@ For a bare repo, the path to the Git directory is at the top level of the projec
 
 For a non-bare default repo, the path to the Git directory is inside a .git subdirectory: `$HOME/.cfg/.git`
 
-### `config config --local status.showUntrackedFiles no`
+### 4. `config config --local status.showUntrackedFiles no`
 Set a local configuration in .cfg to ignore untracked files.
 
-### `config checkout`
+### 5. `config checkout`
 Checkout the actual content from your `.cfg` repository to `$HOME`.
 Git pulls the tracked files out of the compressed database in the Git directory and
 places them in the work tree.
