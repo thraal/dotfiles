@@ -1,0 +1,5 @@
+[user]
+	email = tom.cool@pxl.be
+	name = Tom Cool
+[init]
+	defaultBranch = main
