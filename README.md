@@ -1,5 +1,6 @@
 # dotfiles
-dotfiles backup
+dotfiles backup. paste and execute each subtitle.
+
 ## Install your dotfiles on a new system, or migrate to this setup
 ### 1. `echo ".cfg" >> .gitignore`
 There could be weird behaviour if `.cfg` tries to track itself.
@@ -14,10 +15,10 @@ while storing the Git state at `.cfg`
 
 For a bare repo, the path to the Git directory is at the top level of the project: `$HOME/.cfg/`
 
-For a non-bare default repo, the path to the Git directory is inside a .git subdirectory: `$HOME/.cfg/.git`
+For a non-bare default repo, the path to the Git directory is inside a `.git` subdirectory: `$HOME/.cfg/.git`
 
 ### 4. `config config --local status.showUntrackedFiles no`
-Set a local configuration in .cfg to ignore untracked files.
+Set a local configuration in `.cfg` to ignore untracked files.
 
 ### 5. `config checkout`
 Checkout the actual content from your `.cfg` repository to `$HOME`.
@@ -37,4 +38,10 @@ Back up the files if they’re useful, delete them if they aren’t.
 Run `config checkout` again until you don’t get any errors.
 
 Treat your dotfile management system is like any other Git project.
-Just use the config alias to add, commit, push and pull.
+Just use the `config` alias to add, commit, push and pull.
+
+## Dependencies
+
+- (Starship cross-shell prompt)[https://starship.rs/]
+- (Exa 'ls' replacement)[https://github.com/ogham/exa]
+- (A Nerd Font)[https://www.nerdfonts.com/]
