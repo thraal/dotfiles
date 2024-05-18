@@ -1,5 +1,5 @@
 # dotfiles
-dotfiles backup. paste and execute each subtitle.
+dotfiles backup. paste and execute each subtitle from home directory `~`.
 
 ## Install your dotfiles on a new system, or migrate to this setup
 ### 1. `echo ".cfg" >> .gitignore`
@@ -42,6 +42,6 @@ Just use the `config` alias to add, commit, push and pull.
 
 ## Dependencies
 
-- (Starship cross-shell prompt)[https://starship.rs/]
-- (Exa 'ls' replacement)[https://github.com/ogham/exa]
-- (A Nerd Font)[https://www.nerdfonts.com/]
+- [Starship cross-shell prompt](https://starship.rs/)
+- [Exa 'ls' replacement](https://github.com/ogham/exa)
+- [A Nerd Font](https://www.nerdfonts.com/)
