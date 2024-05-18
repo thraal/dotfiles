@@ -43,5 +43,5 @@ Just use the `config` alias to add, commit, push and pull.
 ## Dependencies
 
 - [Starship cross-shell prompt](https://starship.rs/)
-- [Exa 'ls' replacement](https://github.com/ogham/exa)
+- [Exa 'ls' replacement](https://the.exa.website/)
 - [A Nerd Font](https://www.nerdfonts.com/)
